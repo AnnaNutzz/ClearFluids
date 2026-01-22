@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.clearfluids.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "FluidRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

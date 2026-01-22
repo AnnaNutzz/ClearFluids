@@ -1,0 +1,27 @@
+# Compiled files
+*.class
+*.jar
+*.war
+
+# Build output
+build/
+out/
+bin/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Fabric
+run/

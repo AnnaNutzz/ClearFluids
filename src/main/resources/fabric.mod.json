@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "clearfluids",
+  "version": "1.0.0",
+  "name": "Clear Fluids",
+  "description": "Makes water and lava crystal clear. Compatible with Sodium.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/clearfluids/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.clearfluids.ClearFluidsMod"]
+  },
+  "mixins": ["clearfluids.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20.0",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}
