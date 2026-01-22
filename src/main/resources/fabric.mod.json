@@ -7,19 +7,15 @@
   "authors": ["You"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/clearfluids/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": ["com.clearfluids.ClearFluidsMod"]
+    "client": [
+      "com.clearfluids.ClearFluidsMod"
+    ]
   },
-  "mixins": ["clearfluids.mixins.json"],
   "depends": {
     "fabricloader": ">=0.15.0",
     "minecraft": ">=1.20.0",
-    "java": ">=17",
-    "fabric-api": "*"
-  },
-  "suggests": {
-    "sodium": "*"
+    "java": ">=17"
   }
 }
